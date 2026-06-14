@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Política de privacidad — TriviaApp</title>
+    <title>Política de privacidad — Trivia Master</title>
     <style>
         body { font-family: sans-serif; line-height: 1.6; padding: 16px; color: #1a1a1a; max-width: 720px; margin: 0 auto; }
         h1 { font-size: 1.4rem; }
@@ -15,10 +15,10 @@
 </head>
 <body>
     <h1>Política de privacidad</h1>
-    <p class="updated">Última actualización: 9 de junio de 2026</p>
+    <p class="updated">Última actualización: 9 de junio de 2026 (v1.2)</p>
 
     <p>
-        TriviaApp («la aplicación») es un juego de preguntas y respuestas desarrollado por Nayely Hernández.
+        Trivia Master («la aplicación») es un juego de preguntas y respuestas desarrollado por Nayely Hernández.
         Esta política describe qué datos recopilamos, cómo los usamos y tus derechos.
     </p>
 
@@ -28,36 +28,63 @@
         <li><strong>Perfil de juego:</strong> nombre visible, avatar, puntuaciones, logros, monedas, rachas y estadísticas que guardas al jugar.</li>
         <li><strong>Ranking y seguimiento:</strong> puntuaciones globales/semanales y la lista de jugadores que decides seguir.</li>
         <li><strong>Datos locales:</strong> preferencias (sonido, vibración, dificultad, notificaciones) almacenadas en el dispositivo.</li>
-        <li><strong>Publicidad:</strong> Google AdMob puede recopilar identificadores publicitarios y datos de uso para mostrar anuncios recompensados.</li>
+        <li><strong>Publicidad:</strong> Google AdMob y redes socias de mediación pueden recopilar identificadores publicitarios del dispositivo (por ejemplo, ID de publicidad de Google), dirección IP, datos técnicos del dispositivo e información sobre interacciones con anuncios (impresiones, clics) para mostrar anuncios recompensados, intersticiales y optimizar la entrega publicitaria mediante subasta en tiempo real.</li>
     </ul>
 
     <h2>2. Cómo usamos los datos</h2>
     <ul>
-        <li>Ofrecer las funciones del juego (partidas, ranking, recompensas, tienda).</li>
+        <li>Ofrecer las funciones del juego (partidas, ranking, recompensas, tienda, comodines 50/50).</li>
         <li>Sincronizar tu progreso cuando usas inicio de sesión con Google.</li>
         <li>Enviar notificaciones locales si las activas (recordatorio diario, cambios en el ranking de jugadores seguidos).</li>
-        <li>Mostrar anuncios recompensados mediante AdMob.</li>
+        <li>Mostrar anuncios (recompensados e intersticiales) mediante AdMob y su plataforma de mediación.</li>
         <li>Mejorar la estabilidad y seguridad del servicio.</li>
     </ul>
 
     <h2>3. Servicios de terceros</h2>
-    <p>La aplicación utiliza:</p>
+    <p>La aplicación utiliza los siguientes servicios:</p>
     <ul>
         <li><strong>Google Firebase</strong> (Authentication, Cloud Firestore) — <a href="https://firebase.google.com/support/privacy">Política de privacidad de Firebase/Google</a></li>
-        <li><strong>Google AdMob</strong> — <a href="https://policies.google.com/privacy">Política de privacidad de Google</a></li>
+        <li><strong>Google AdMob</strong> (plataforma de anuncios y mediación) — <a href="https://policies.google.com/privacy">Política de privacidad de Google</a></li>
         <li><strong>Google Play Services</strong> para inicio de sesión y servicios del dispositivo.</li>
     </ul>
+
+    <h2>3.1. Mediación publicitaria (subasta en tiempo real)</h2>
+    <p>
+        Para mostrar anuncios, AdMob puede ejecutar una subasta en tiempo real entre Google y otras redes publicitarias.
+        Según tu región, configuración del dispositivo y disponibilidad de inventario, la aplicación integra SDKs de socios de mediación que pueden procesar datos con fines publicitarios bajo sus propias políticas:
+    </p>
+    <ul>
+        <li><strong>Meta Audience Network</strong> — <a href="https://www.facebook.com/privacy/policy/">Política de privacidad de Meta</a></li>
+        <li><strong>Unity Ads</strong> — <a href="https://unity.com/legal/privacy-policy">Política de privacidad de Unity</a></li>
+        <li><strong>AppLovin</strong> — <a href="https://www.applovin.com/privacy/">Política de privacidad de AppLovin</a></li>
+        <li><strong>Mintegral</strong> — <a href="https://www.mintegral.com/en/privacy/">Política de privacidad de Mintegral</a></li>
+        <li><strong>Pangle</strong> (ByteDance / TikTok Audience Network) — <a href="https://www.pangleglobal.com/privacy">Política de privacidad de Pangle</a></li>
+        <li><strong>ironSource</strong> (Unity LevelPlay) — <a href="https://developers.is.com/ironsource-mobile/air/ironsource-mobile-privacy-policy/">Política de privacidad de ironSource</a></li>
+    </ul>
+    <p>
+        No todas las redes están activas en todos los países ni en todos los momentos. Solo se transmiten los datos necesarios para la entrega y medición de anuncios.
+        Puedes limitar la personalización publicitaria en la configuración de tu dispositivo Android (por ejemplo, «Anuncios» → «Desactivar personalización de anuncios» o restablecer tu ID de publicidad).
+    </p>
 
     <h2>4. Almacenamiento y seguridad</h2>
     <p>
         Parte de la información se guarda localmente en tu dispositivo. Los datos de cuenta y ranking se almacenan en servidores de Google Firebase.
         Aplicamos reglas de acceso en Firestore para que solo puedas modificar tus propios datos.
+        Los socios publicitarios procesan datos según sus propias medidas de seguridad descritas en sus políticas.
     </p>
 
-    <h2>5. Retención y eliminación</h2>
+    <h2 id="eliminacion">5. Retención y eliminación</h2>
     <p>
-        Puedes dejar de usar la aplicación en cualquier momento. Para solicitar la eliminación de tu perfil y datos asociados en Firebase,
-        escríbenos al correo indicado abajo. También puedes revocar el acceso de la app a tu cuenta de Google desde la configuración de Google.
+        Puedes dejar de usar la aplicación en cualquier momento. También puedes revocar el acceso de la app a tu cuenta de Google desde la configuración de Google.
+    </p>
+    <p><strong>Solicitar eliminación o exportación de datos</strong></p>
+    <p>
+        Para solicitar la eliminación de tu perfil y datos asociados en Firebase, o para pedir una copia de los datos que tenemos sobre tu cuenta, envía un correo a
+        <a href="mailto:misredes.cash@gmail.com">misredes.cash@gmail.com</a> con el asunto «Eliminar datos Trivia Master» o «Exportar datos Trivia Master»,
+        desde la misma dirección de correo vinculada a tu cuenta Google (si aplica). Responderemos en un plazo razonable.
+    </p>
+    <p>
+        Los datos publicitarios recopilados por Google y las redes de mediación se rigen por las políticas de cada proveedor; puedes ejercer derechos adicionales contactando directamente a esos proveedores o ajustando la configuración de privacidad de tu dispositivo.
     </p>
 
     <h2>6. Menores de edad</h2>
